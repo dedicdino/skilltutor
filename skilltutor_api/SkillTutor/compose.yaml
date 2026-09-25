@@ -1,0 +1,7 @@
+﻿services:
+  skilltutor:
+    image: skilltutor
+    build:
+      context: .
+      dockerfile: Dockerfile
+
