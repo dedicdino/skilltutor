@@ -55,3 +55,37 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+**/Thumbs.db
+
+# Docker
+.env
+.env.*
+docker-volumes/
+**/docker/data/
+
+# Flutter i Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+.gradle/
+local.properties
+**/GeneratedPluginRegistrant.java
+
+# iOS
+.mtj.tmp/
+*.icns
+Pods/
+Makefile
+pubspec.lock
+
